@@ -1,5 +1,5 @@
 body {
-	background-color: aqua;
+	background-color:dimgrey;
 }
 
 /* **********************************************
@@ -9,6 +9,11 @@ Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
+
+#closed-captions {
+	margin-top: 3em;
+}
+
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
@@ -21,10 +26,10 @@ Feel free to adjust the defaults to your needs.
 	transition: .2s;
 	opacity: 0;
 }
-.voice1 {
+.voice1Boss {
 	font-style: italic;
 }
-.voice2 {
+.voice2Ryan {
 	font-weight: bold;
 }
 
@@ -116,14 +121,40 @@ Sounds.
 
 /* The moment the class .sound1 is added to the body, the background is yellow */
 .sound1 {
-	background: hotpink;
+	background-color: maroon;
+	animation-name: sound1;
+	animation-duration: .7s;
 }
 
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
-.sound1 #video-mask {
-	box-shadow: 2em 2em 2em olivedrab;
+#video-mask {
+	box-shadow: 2em 2em 4em black, -2em -2em 4em black;
+	border: solid 1.5em black;
 }
 
+@keyframes sound1 {
+	0% {
+		scale: 100%;
+	}
+
+	10% {
+		scale: 250%;
+		rotate: -40deg;
+	}
+	
+	60% {
+		scale: 150%;
+	}
+
+	90% {
+		scale: 250%;
+		rotate: 40deg;
+	}
+
+	100% {
+		scale: 100%
+	}
+}
 
 /* **********************************************
 Basic layout.
