@@ -251,6 +251,9 @@ Sounds.
 	animation-delay: 8s;
 }
 
+/* tijdens deze irritante piep in de clip, heb ik de border en achtergrond steeds elkaars complementaire kleuren gegeven, */
+/* nu klinkt het niet alleen irritant, maar ziet het er ook irritant uit, dat je er bijna hoofdpijn van krijgt */
+
 @keyframes irritant_achtergrondkleur {
 	0% {
 		background-color: aqua;
@@ -500,6 +503,8 @@ Sounds.
 		border-color: red;
 	}
 }
+
+
 /* **********************************************
 Basic layout.
 	Place the video in the center of the page.
