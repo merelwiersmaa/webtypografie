@@ -121,13 +121,13 @@ Sounds.
 
 /* The moment the class .sound1 is added to the body, the background is yellow */
 .sound1 {
-	background-color: maroon;
+	background-color: darkslateblue;
 	animation-name: sound1;
 	animation-duration: .7s;
 }
 
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
-#video-mask {
+.sound1 #video-mask {
 	box-shadow: 2em 2em 4em black, -2em -2em 4em black;
 	border: solid 1.5em black;
 }
@@ -153,6 +153,44 @@ Sounds.
 
 	100% {
 		scale: 100%
+	}
+}
+
+
+.sound2 {
+	background-color: maroon;
+}
+
+.sound2 #video-mask {
+	box-shadow: 2em 2em 4em white, -2em -2em 4em white;
+	border: solid 1.5em white;
+}
+
+.sound3 {
+	animation-name: sound3;
+	animation-duration: 2s;
+}
+
+.sound3 #video-mask {
+	box-shadow: 2em 2em 4em black, -2em -2em 4em black;
+	border: solid 1.5em black;
+}
+
+@keyframes sound3 {
+	0% {
+		rotate: 0deg;
+	}
+
+	20% {
+		rotate: -40deg;
+	}
+
+	40% {
+		rotate: 40deg;
+	}
+
+	100% {
+		rotate: 360deg;
 	}
 }
 
