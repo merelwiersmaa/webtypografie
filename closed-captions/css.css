@@ -259,26 +259,26 @@ Sounds.
 }
 
 .sound8 {
-	background-color: rgb(172, 176, 176);
+	background-color: rgb(215, 221, 221);
 }
 .sound8 #video-mask {
-	box-shadow: 2em 2em 4em rgb(74, 82, 62), -2em -2em 4em rgb(74, 82, 62);
+	/* box-shadow: 2em 2em 4em rgb(74, 82, 62), -2em -2em 4em rgb(74, 82, 62); */
 	border: solid 1.5em rgb(199, 199, 199);
 }
 
 .sound9 {
 	background-color: rgb(215, 221, 221);
 	animation-name: irritant_achtergrondkleur;
-	animation-duration: 41s;
-	/* animation-delay: 8s; */
+	animation-duration: 39s;
+	animation-delay: 2s;
 }
 
 .sound9 #video-mask {
 	border: solid 1.5em rgb(199, 199, 199);
 	box-shadow: none;
 	animation-name: irritant_borderkleur;
-	animation-duration: 41s;
-	/* animation-delay: 8s; */
+	animation-duration: 39s;
+	animation-delay: 2s;
 }
 
 /* tijdens deze irritante piep in de clip, heb ik de border en achtergrond steeds elkaars complementaire kleuren gegeven, */
