@@ -71,8 +71,8 @@ Feel free to adjust the defaults to your needs.
 	font-style: Italic; 
 	font-weight: 800; /* Ook wijkt deze zin af van de rest, waardoor je weet dat dit maar een eenmalige stem is. */
 	font-size: 2em;
-	color: rgb(115, 7, 12);
-	text-shadow: 1px 1px 2px pink;
+	color: rgb(255, 0, 13);
+	text-shadow: 1px 1px 2px rgb(0, 0, 0);
 }
 
 /* **********************************************
@@ -165,15 +165,34 @@ Sounds.
 .sound1 {
 	/* background-color: darkslateblue; */
 	animation-name: sound1;
-	animation-duration: .7s;
+	animation-duration: 1s;
 }
 
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
 .sound1 #video-mask {
 	animation-name: sound1video;
-	animation-duration: .7s;
+	animation-duration: 1s;
 	/* border: solid 1.5em rgb(255, 255, 255); */
 }
+
+/* .sound0 #video-mask {
+	animation-name: sound0video;
+	animation-duration: 4s;
+}
+
+@keyframes sound0video {
+	0% {
+		box-shadow: 2em 2em 4em black, -2em -2em 4em black;
+	}
+
+	50% {
+		box-shadow: 2em 2em 10em black, -2em -2em 10em black;
+	}
+
+	100% {
+		box-shadow: 2em 2em 10em black, -2em -2em 10em black;
+	}
+} */
 
 @keyframes sound1 {
 	0% {
@@ -225,22 +244,65 @@ Sounds.
 
 
 .sound2 {
-	background-color: maroon;
+	animation-name: sound2achtergrond;
+	animation-duration: 1.3s;
 }
 
 .sound2 #video-mask {
-	box-shadow: 2em 2em 4em white, -2em -2em 4em white;
-	border: solid 1.5em white;
+	animation-name: sound2video;
+	animation-duration: 1.3s;
+}
+
+@keyframes sound2achtergrond {
+	0% {
+		
+	}
+
+	30% {
+		background-color: maroon;
+	}
+
+	70% {
+		background-color: maroon;
+	}
+
+	100% {
+
+	}
+}
+
+@keyframes sound2video {
+	0% {
+		scale: 100%;
+	}
+
+	30% {
+		box-shadow: 2em 2em 4em white, -2em -2em 4em white;
+		border: solid 1.5em white;
+	}
+
+	50% {
+		scale: 120%;
+	}
+
+	70% {
+		box-shadow: 2em 2em 4em white, -2em -2em 4em white;
+		border: solid 1.5em white;
+	}
+
+	100% {
+		scale: 100%;
+	}
 }
 
 .sound3 {
 	animation-name: sound3;
-	animation-duration: 2s;
+	animation-duration: 2.4s;
 }
 
 .sound3 #video-mask {
-	box-shadow: 2em 2em 4em black, -2em -2em 4em black;
-	border: solid 1.5em black;
+	animation-name: sound3video;
+	animation-duration: 2.4s;
 }
 
 @keyframes sound3 {
@@ -250,10 +312,15 @@ Sounds.
 
 	20% {
 		rotate: -40deg;
+		background-color: maroon;
 	}
 
 	40% {
-		rotate: 40deg;
+		/* rotate: 40deg; */
+	}
+
+	80% {
+		background-color: maroon;
 	}
 
 	100% {
@@ -261,35 +328,170 @@ Sounds.
 	}
 }
 
+@keyframes sound3video {
+	0% {
+		
+	}
+
+	20% {
+		box-shadow: 2em 2em 4em black, -2em -2em 4em black;
+	border: solid 1.5em black;
+	}
+
+	65% {
+		box-shadow: 2em 2em 4em black, -2em -2em 4em black;
+	border: solid 1.5em black;
+	}
+
+	70% {
+		box-shadow: 2em 2em 4em white, -2em -2em 4em white;
+		border: solid 1.5em white;
+	}
+
+	95% {
+		box-shadow: 2em 2em 4em white, -2em -2em 4em white;
+		border: solid 1.5em white;
+	}
+	
+	100% {
+		
+	}
+}
+
 .sound4 {
 	background-color: dimgray;
 }
 
-.sound5 #video-mask {
-	box-shadow: none;
-	border: none;
+.sound5 {
+	animation-name: sound5;
+	animation-duration: 2.7s;
 }
 
-.sound6 {
-	background-color: darkslategray;
+.sound5 #video-mask {
+	animation-name: sound5video;
+	animation-duration: 2.7s;
 }
-.sound6 #video-mask {
-	box-shadow: 2em 2em 4em rgb(171, 26, 26), -2em -2em 4em rgb(171, 26, 26);
-	border: solid 1.5em rgb(150, 15, 15);
+
+@keyframes sound5 {
+	0% {
+		
+	}
+
+	20% {
+	
+		background-color: maroon;
+	}
+
+	40% {
+	
+	}
+
+	80% {
+		background-color: maroon;
+	}
+
+	100% {
+		
+	}
+}
+
+@keyframes sound5video {
+	0% {
+		scale: 100%;
+	}
+
+	20% {
+		box-shadow: 2em 2em 4em black, -2em -2em 4em black;
+	border: solid 1.5em black;
+	
+	}
+
+	70% {
+		box-shadow: 2em 2em 4em black, -2em -2em 4em black;
+	border: solid 1.5em black;
+	scale: 100%
+	}
+
+	80% {
+		box-shadow: 2em 2em 4em white, -2em -2em 4em white;
+		border: solid 1.5em white;
+		scale: 120%;
+	}
+
+	100% {
+		scale: 100%;
+	}
+}
+
+
+.sound7 {
+	animation-name: sound7;
+	animation-duration: 2.4s;
 }
 
 .sound7 #video-mask {
-	box-shadow: none;
-	border: none;
+	animation-name: sound7video;
+	animation-duration: 2.4s;
 }
 
-.sound8 {
+@keyframes sound7 {
+	0% {
+		
+	}
+
+	20% {
+	
+		background-color: maroon;
+	}
+
+	40% {
+	
+	}
+
+	80% {
+		background-color: maroon;
+	}
+
+	100% {
+		
+	}
+}
+
+@keyframes sound7video {
+	0% {
+		scale: 100%;
+	}
+
+	20% {
+		box-shadow: 2em 2em 4em black, -2em -2em 4em black;
+	border: solid 1.5em black;
+	
+	}
+
+	40% {
+		box-shadow: 2em 2em 4em black, -2em -2em 4em black;
+	border: solid 1.5em black;
+	scale: 100%
+	}
+
+	60% {
+		box-shadow: 2em 2em 4em white, -2em -2em 4em white;
+		border: solid 1.5em white;
+		scale: 135%;
+	}
+
+	100% {
+		scale: 100%;
+	}
+}
+
+/* .sound8 {
 	background-color: rgb(215, 221, 221);
 }
 .sound8 #video-mask {
 	/* box-shadow: 2em 2em 4em rgb(74, 82, 62), -2em -2em 4em rgb(74, 82, 62); */
-	border: solid 1.5em rgb(199, 199, 199);
-}
+	/* border: solid 1.5em rgb(199, 199, 199); */
+ 
 
 .sound9 {
 	background-color: rgb(215, 221, 221);
