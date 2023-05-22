@@ -118,4 +118,8 @@ Na de tweede feedback in de klas met Vasilis, kreeg ik positieve reacties op mij
 
 Ook het contrast met achtergrond en tekst moet ik goed in de gaten houden zodat het leesbaar blijft.
 
+UPDATE:
+
+Ik ben nu de animaties aan het aanpassen dat ze alleen tijdens het geluid veranderen, en niet veranderd blijven ná het geluid. Het is nu een eenmalige aanpassing, net zoals het geluid eenmalig is.
+
 
