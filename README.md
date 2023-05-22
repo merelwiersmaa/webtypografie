@@ -1,5 +1,5 @@
 <details>
-  <summary># Web Typography Opdracht, 2022/2023</summary>
+  <summary>Web Typography Opdracht, 2022/2023</summary>
 
 Als je doof bent, of als je om een andere reden geen geluid kunt horen, dan mis je veel informatie als je een film kijkt. Knisperende voetstappen, langzaam aanzwellende muziek, nerveus getik op een deur, je hoort het natuurlijk allemaal niet. Nu bestaat er zoiets als *closed caption*, wat een type ondertiteling is waarbij ook dingen als omgevingsgeluiden en de muziek beschreven worden. Hierdoor krijgt een kijker die informatie wel binnen.
 
@@ -12,7 +12,7 @@ En dat gaan jullie doen.
   </details>
   <details>
 
-  <summary>## Leerdoelen</summary>
+  <summary>Leerdoelen</summary>
 
 - Je kan de kennis over vormgeving die je hebt opgedaan tijdens de minor technisch toepassen met behulp van CSS
 - Je kan verborgen nuance uit een audiotrack overtuigend vertalen naar visuele (typografische) beelden
@@ -22,7 +22,7 @@ En dat gaan jullie doen.
   </details>
   <details>
   
-  <summary>## Oplevering</summary>
+  <summary>Oplevering</summary>
 
 Je levert een werkende versie op, gemaakt met HTML, CSS en JavaScript. Deze staat op Github. In een duidelijke readme documenteer en onderbouw je je ontwerpkeuzes. Je developmentgeschiedenis is terug te vinden op GitHub.
 
@@ -33,7 +33,7 @@ De beoordeling is mondeling en volgt [de rubric uit het beoordelingsformulier](w
   </details>
   <details>
   
-  <summary>## Typografische restricties</summary>
+  <summary>Typografische restricties</summary>
 
 Je *moet* een van deze twee opties kiezen, en je keuze moet je onderbouwen. In je readme staat een uitleg over je overwegingen om de ene of de andere restrictie te kiezen.
 
@@ -53,14 +53,14 @@ Voor een overzicht, zie [de brenner.pdf](brenner.pdf).
 
   </details>
   <details>
-  <summary>## Het fragment</summary>
+  <summary>Het fragment</summary>
 
 Ik heb een fragment voorbereid. Het gaat om twee scenes uit *Blade Runner 2049*. De captions staan in de HTML, en ze verschijnen in sync met de video. [Kijk maar](closed-captions/index.html).
 
   </details>
   <details>
   
-  <summary>### De captions</summary>
+  <summary>De captions</summary>
 
 De captions staan in de html, in het bestand index.html. Je kan aan elke paragraaf eventueel een of meer classes toevoegen. Bijvoorbeeld `voice1` of `voice2 soft`. Classes voeg je handmatig toe in de html.
 
@@ -71,7 +71,7 @@ Met JavaScript worden er een paar dingen extra gedaan:
 
   </details>
   <details>
-  <summary>### Tijdens het afspelen</summary>
+  <summary>Tijdens het afspelen</summary>
 
 Tijdens het afspeelen wordt er een class `on` op de caption gezet als hij moet verschijnen, en een class `off` als hij klaar is. *Zowel class `on` als class `off` blijft op de caption staan!*
 
@@ -84,7 +84,7 @@ Er verschijnen ook classes op de body op momenten dat er geluiden worden afgespe
   </details>
   <details>
 
-  <summary>## Een eigen fragment (afgeraden, uitgebreide onderbouwing is nodig)</summary>
+  <summary>Een eigen fragment (afgeraden, uitgebreide onderbouwing is nodig)</summary>
 
 Je kan er ook voor kiezen om een eigen, *beter* fragment te gebruiken. Dit wordt afgeraden. De tijd die je besteedt aan het zoeken naar dat fragment kan je beter besteden aan het werken aan de opdracht. Bovendien blijkt dat er vaak fragmenten worden gekozen die niet goed voldoen aan de opdracht. Als je een ander fragment kiest dan *moet* je dit goed onderbouwd voorleggen aan je docent. De deadline hiervoor is vrijdagochtend in de eerste week.
 
