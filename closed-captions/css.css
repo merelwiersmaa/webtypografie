@@ -486,26 +486,51 @@ Sounds.
 }
 
 /* .sound8 {
-	background-color: rgb(215, 221, 221);
+	animation-name: sound8;
+	animation-duration: 13s;
+	animation-delay: 2s;
 }
+
 .sound8 #video-mask {
-	/* box-shadow: 2em 2em 4em rgb(74, 82, 62), -2em -2em 4em rgb(74, 82, 62); */
-	/* border: solid 1.5em rgb(199, 199, 199); */
- 
+	animation-name: sound8video;
+	animation-duration: 13s;
+	animation-delay: 2s;
+}
+
+@keyframes sound8video {
+	0%{
+		border: solid 1.5em lightgray;
+	}
+
+	100% {
+		scale: 50%
+		/* border: solid 1.5em lightgray; */
+	/* }
+}
+
+@keyframes sound8 {
+	0% {
+		background-color: white;
+	}
+
+	100% {
+		background-color: white;
+	}
+} */ 
 
 .sound9 {
-	background-color: rgb(215, 221, 221);
+	background-color: white;
 	animation-name: irritant_achtergrondkleur;
-	animation-duration: 39s;
-	animation-delay: 2s;
+	animation-duration: 22s;
+	animation-delay: 19s;
 }
 
 .sound9 #video-mask {
-	border: solid 1.5em rgb(199, 199, 199);
+	border: solid 1.5em lightgray;
 	box-shadow: none;
 	animation-name: irritant_borderkleur;
-	animation-duration: 39s;
-	animation-delay: 2s;
+	animation-duration: 22s;
+	animation-delay: 19s;
 }
 
 /* tijdens deze irritante piep in de clip, heb ik de border en achtergrond steeds elkaars complementaire kleuren gegeven, */
@@ -513,75 +538,69 @@ Sounds.
 
 @keyframes irritant_achtergrondkleur {
 	0% {
-		background-color: aqua;
+		/* background-color: aqua; */
+		background-color: white;
+	
 	}
 	 
 	5% {
-		background-color: red;
+		/* background-color: red; */
 	}
 
 	10% {
-		background-color: aqua;
+		/* background-color: aqua; */
 	}
 	 
 	15% {
-		background-color: red;
+		/* background-color: red; */
 	}
 
 	20% {
-		background-color: aqua;
+		/* background-color: aqua; */
 	}
 	 
 	25% {
-		background-color: red;
+		/* background-color: red; */
 	}
 
 	30% {
-		background-color: aqua;
+		/* background-color: aqua; */
 	}
 
 	32.5% {
-		background-color: red;
+		/* background-color: red; */
 	}
 	 
 	35% {
-		background-color: aqua;
+		/* background-color: aqua; */
 	}
 
 	37.5% {
-		background-color: red;
+		/* background-color: red; */
 	}
 
 	40% {
-		background-color: aqua;
+		/* background-color: aqua; */
+		
 	}
 	 
 	42.5% {
-		background-color: red;
+		/* background-color: red; */
 	}
 
 	45% {
-		background-color: aqua;
-	}
-
-	47.5% {
-		background-color: red;
+		/* background-color: aqua; */
+		background-color: white;
 	}
 
 	50% {
+		
 		background-color: aqua;
-	}
-
-	52.5% {
-		background-color: red;
 	}
 
 	55% {
-		background-color: aqua;
-	}
-	 
-	57.5% {
 		background-color: red;
+		
 	}
 
 	60% {
@@ -711,76 +730,75 @@ Sounds.
 
 @keyframes irritant_borderkleur {
 	0% {
-		border-color: red;
+		/* border-color: red; */
+		border-color: lightgray;
+		scale: 100%;
 	}
 	 
 	5% {
-		border-color: aqua;
+		/* border-color: aqua; */
 	}
 
 	10% {
-		border-color: red;
+		/* border-color: red; */
 	}
 	 
 	15% {
-		border-color: aqua;
+		/* border-color: aqua; */
 	}
 
 	20% {
-		border-color: red;
+		/* border-color: red; */
 	}
 	 
 	25% {
-		border-color: aqua;
+		/* border-color: aqua; */
 	}
 
 	30% {
-		border-color: red;
+		/* border-color: red; */
 	}
 
 	32.5% {
-		border-color: aqua;
+		/* border-color: aqua; */
 	}
 	 
 	35% {
-		border-color: red;
+		/* border-color: red; */
 	}
 
 	37.5% {
-		border-color: aqua;
+		/* border-color: aqua; */
 	}
 
 	40% {
-		border-color: red;
+		/* border-color: red; */
+		
 	}
 
 	42.5% {
-		border-color: aqua;
+		/* border-color: aqua; */
 	}
 	 
 	45% {
-		border-color: red;
+		/* border-color: red; */
+		border-color: lightgray;
+		scale: 120%;
 	}
 
-	47.5% {
-		border-color: aqua;
-	}
+
 
 	50% {
 		border-color: red;
 	}
 
-	52.5% {
-		border-color: aqua;
-	}
+	
 
 	55% {
-		border-color: red;
+		border-color: aqua;
+		
 	}
 	 
-	57.5% {
-		border-color: aqua;
-	}
 
 	60% {
 		border-color: red;
@@ -900,10 +918,12 @@ Sounds.
 
 	98.75% {
 		border-color: aqua;
+		scale: 120%;
 	}
 
 	100% {
 		border-color: red;
+		
 	}
 }
 
