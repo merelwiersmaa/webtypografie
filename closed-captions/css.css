@@ -46,6 +46,26 @@ Feel free to adjust the defaults to your needs.
 	font-weight: 800;
 }
 
+.voice2RyanInterlinked1 {
+	font-family: "Brenner Slab"; /* KD6 is een stoer type, dus daar hoort een stoer font bij */
+	font-style: Normal; /* Deze clip gaat om hem, daarom zijn tekst in een normaal font zonder haakjes, alsof je het vanuit zijn POV ervaart */
+	font-weight: 800;
+}
+
+.voice2RyanInterlinked2 {
+	font-family: "Brenner Slab"; /* KD6 is een stoer type, dus daar hoort een stoer font bij */
+	font-style: Normal; /* Deze clip gaat om hem, daarom zijn tekst in een normaal font zonder haakjes, alsof je het vanuit zijn POV ervaart */
+	font-weight: 800;
+	margin-left: 10em;
+}
+
+.voice2RyanInterlinked3 {
+	font-family: "Brenner Slab"; /* KD6 is een stoer type, dus daar hoort een stoer font bij */
+	font-style: Normal; /* Deze clip gaat om hem, daarom zijn tekst in een normaal font zonder haakjes, alsof je het vanuit zijn POV ervaart */
+	font-weight: 800;
+	margin-left: 20em;
+}
+
 .voice3Aso {
 	font-family: "Brenner Slab"; /* Dit komt van een pesterig 'stoere' agent, daarom ook in het stoere font. */
 	font-style: Italic; 
