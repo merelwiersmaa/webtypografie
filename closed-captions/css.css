@@ -31,6 +31,15 @@ Feel free to adjust the defaults to your needs.
 	font-style: Italic; /* De clip is een beetje vanuit de KD6's POV, daarom is de computerstem een 'bij-stemmetje' in italic en tussen haakjes */
 	font-weight: 600;
 }
+
+.voice1BossKlaar {
+	font-family: "Brenner Mono"; /* Brenner Mono omdat het een computer stem is */
+	font-style: Italic; /* De clip is een beetje vanuit de KD6's POV, daarom is de computerstem een 'bij-stemmetje' in italic en tussen haakjes */
+	font-weight: 600;
+	font-size: 2em;
+	color: rgb(77, 175, 103);
+	text-shadow: 1px 1px 2px rgb(52, 89, 24);
+}
 .voice2Ryan {
 	font-family: "Brenner Slab"; /* KD6 is een stoer type, dus daar hoort een stoer font bij */
 	font-style: Normal; /* Deze clip gaat om hem, daarom zijn tekst in een normaal font zonder haakjes, alsof je het vanuit zijn POV ervaart */
@@ -41,8 +50,9 @@ Feel free to adjust the defaults to your needs.
 	font-family: "Brenner Slab"; /* Dit komt van een pesterig 'stoere' agent, daarom ook in het stoere font. */
 	font-style: Italic; 
 	font-weight: 800; /* Ook wijkt deze zin af van de rest, waardoor je weet dat dit maar een eenmalige stem is. */
-	font-size: 3em;
-	color: hotpink;
+	font-size: 2em;
+	color: rgb(115, 7, 12);
+	text-shadow: 1px 1px 2px pink;
 }
 
 /* **********************************************
@@ -141,7 +151,7 @@ Sounds.
 /* The moment the class .sound1 is added to the body, the movie makes a turn */
 .sound1 #video-mask {
 	box-shadow: 2em 2em 4em black, -2em -2em 4em black;
-	border: solid 1.5em black;
+	border: solid 1.5em rgb(255, 255, 255);
 }
 
 @keyframes sound1 {
@@ -150,16 +160,16 @@ Sounds.
 	}
 
 	10% {
-		scale: 250%;
+		scale: 150%;
 		rotate: -40deg;
 	}
 	
 	60% {
-		scale: 150%;
+		scale: 50%;
 	}
 
 	90% {
-		scale: 250%;
+		scale: 150%;
 		rotate: 40deg;
 	}
 
@@ -229,26 +239,26 @@ Sounds.
 }
 
 .sound8 {
-	background-color: rgb(13, 121, 121);
+	background-color: rgb(172, 176, 176);
 }
 .sound8 #video-mask {
-	box-shadow: 2em 2em 4em rgb(48, 73, 13), -2em -2em 4em rgb(48, 73, 13);
-	border: solid 1.5em rgb(6, 107, 30);
+	box-shadow: 2em 2em 4em rgb(74, 82, 62), -2em -2em 4em rgb(74, 82, 62);
+	border: solid 1.5em rgb(199, 199, 199);
 }
 
 .sound9 {
-	background-color: aqua;
+	background-color: rgb(215, 221, 221);
 	animation-name: irritant_achtergrondkleur;
-	animation-duration: 34s;
-	animation-delay: 8s;
+	animation-duration: 41s;
+	/* animation-delay: 8s; */
 }
 
 .sound9 #video-mask {
-	border: solid 1.5em red;
+	border: solid 1.5em rgb(199, 199, 199);
 	box-shadow: none;
 	animation-name: irritant_borderkleur;
-	animation-duration: 34s;
-	animation-delay: 8s;
+	animation-duration: 41s;
+	/* animation-delay: 8s; */
 }
 
 /* tijdens deze irritante piep in de clip, heb ik de border en achtergrond steeds elkaars complementaire kleuren gegeven, */
@@ -282,8 +292,16 @@ Sounds.
 	30% {
 		background-color: aqua;
 	}
+
+	32.5% {
+		background-color: red;
+	}
 	 
 	35% {
+		background-color: aqua;
+	}
+
+	37.5% {
 		background-color: red;
 	}
 
@@ -291,7 +309,15 @@ Sounds.
 		background-color: aqua;
 	}
 	 
+	42.5% {
+		background-color: red;
+	}
+
 	45% {
+		background-color: aqua;
+	}
+
+	47.5% {
 		background-color: red;
 	}
 
@@ -322,55 +348,112 @@ Sounds.
 	65% {
 		background-color: aqua;
 	}
+
+	66.25% {
+		background-color: red;
+	}
 	 
 	67.5% {
+		background-color: aqua;
+	}
+
+	68.75% {
 		background-color: red;
 	}
 
 	70% {
 		background-color: aqua;
 	}
+
+	71.25% {
+		background-color: red;
+	}
 	 
 	72.5% {
+		background-color: aqua;
+	}
+
+	73.75% {
 		background-color: red;
 	}
 
 	75% {
 		background-color: aqua;
 	}
+
+	76.25% {
+		background-color: red;
+	}
+
 	77.5% {
+		background-color: aqua;
+	}
+
+	78.75% {
 		background-color: red;
 	}
 
 	80% {
 		background-color: aqua;
 	}
+
+	81.25% {
+		background-color: red;
+	}
 	 
 	82.5% {
+		background-color: aqua;
+	}
+
+	83.75% {
 		background-color: red;
 	}
 
 	85% {
 		background-color: aqua;
 	}
+
+	86.25% {
+		background-color: red;
+	}
 	 
 	87.5% {
+		background-color: aqua;
+	}
+
+	88.75% {
 		background-color: red;
 	}
 
 	90% {
 		background-color: aqua;
 	}
+
+	91.25% {
+		background-color: red;
+	}
 	 
 	92.5% {
+		background-color: aqua;
+	}
+
+	93.75% {
 		background-color: red;
 	}
 
 	95% {
 		background-color: aqua;
 	}
+
+	96.25% {
+		background-color: red;
+	}
 	 
 	97.5% {
+		background-color: aqua;
+	}
+
+	98.75% {
 		background-color: red;
 	}
 
@@ -407,16 +490,32 @@ Sounds.
 	30% {
 		border-color: red;
 	}
+
+	32.5% {
+		border-color: aqua;
+	}
 	 
 	35% {
+		border-color: red;
+	}
+
+	37.5% {
 		border-color: aqua;
 	}
 
 	40% {
 		border-color: red;
 	}
+
+	42.5% {
+		border-color: aqua;
+	}
 	 
 	45% {
+		border-color: red;
+	}
+
+	47.5% {
 		border-color: aqua;
 	}
 
@@ -447,55 +546,112 @@ Sounds.
 	65% {
 		border-color: red;
 	}
+
+	66.25% {
+		border-color: aqua;
+	}
 	 
 	67.5% {
+		border-color: red;
+	}
+
+	68.75% {
 		border-color: aqua;
 	}
 
 	70% {
 		border-color: red;
 	}
+
+	71.25% {
+		border-color: aqua;
+	}
 	 
 	72.5% {
+		border-color: red;
+	}
+
+	73.75% {
 		border-color: aqua;
 	}
 
 	75% {
 		border-color: red;
 	}
+
+	76.25% {
+		border-color: aqua;
+	}
+
 	77.5% {
+		border-color: red;
+	}
+
+	78.75% {
 		border-color: aqua;
 	}
 
 	80% {
 		border-color: red;
 	}
+
+	81.25% {
+		border-color: aqua;
+	}
 	 
 	82.5% {
+		border-color: red;
+	}
+
+	83.75% {
 		border-color: aqua;
 	}
 
 	85% {
 		border-color: red;
 	}
+
+	86.25% {
+		border-color: aqua;
+	}
 	 
 	87.5% {
+		border-color: red;
+	}
+
+	88.75% {
 		border-color: aqua;
 	}
 
 	90% {
 		border-color: red;
 	}
+
+	91.25% {
+		border-color: aqua;
+	}
 	 
 	92.5% {
+		border-color: red;
+	}
+
+	93.75% {
 		border-color: aqua;
 	}
 
 	95% {
 		border-color: red;
 	}
+
+	96.25% {
+		border-color: aqua;
+	}
 	 
 	97.5% {
+		border-color: red;
+	}
+
+	98.75% {
 		border-color: aqua;
 	}
 
