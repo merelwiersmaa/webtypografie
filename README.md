@@ -81,3 +81,20 @@ Voor een goede onderbouwing van je keuze voor een ander fragment moet je deze vr
 Je kan dan de nodige HTML en JavaScript genereren door gebruik te maken van [caption generator](https://cmda-minor-vid.github.io/web-typography-18-19/generator/) (in Google Chrome). 
 
 Als je de closed captions wil bewerken dan kan je een tool zoals [Amber Script](https://www.amberscript.com/en) gebruiken. Daar kan je exporteren als `.srt`, en die kan je weer door de generator halen.
+
+
+### Mijn Proces:
+
+Mijn eerste stappen waren om bij elke sound een animatie toe te voegen. Ik ben erg extreem begonnen, met wilde animaties en extreme kleuren, puur om te kijken wat mogelijk is. 
+
+Dit was de eerste feedback van Annika:
+
+<img width="536" alt="peerfeedback_merelW" src="https://github.com/merelwiersmaa/webtypografie/assets/83574654/51ae4b73-e917-43a5-bda2-ea4c4e068cd5">
+
+Hierna heb ik al een paar 'extreme' kleuren eruit gehaald en aangepast. Ook heb ik de 'visuele hoofdpijn' van de piep nog meer aangepast, zodat deze geleidelijk opbouwt bij het harder worden van de piep.
+
+Na de tweede feedback in de klas met Vasilis, kreeg ik positieve reacties op mijn experimenten met de bewegingen en kleuren. Als tip kreeg ik om het te fine-tunen naar een mooie tussenweg, waarin het nog wel 'extreem' is maar niet afwijkt van de sfeer van het fragment. Ook het piep-geluid mag nog meer opgebouwd worden, want in het begin is die nog amper te horen, terwijl mijn animatie al begint. 
+
+Ook het contrast met achtergrond en tekst moet ik goed in de gaten houden zodat het leesbaar blijft.
+
+
