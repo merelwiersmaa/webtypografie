@@ -104,7 +104,7 @@ Als je de closed captions wil bewerken dan kan je een tool zoals [Amber Script](
 
 </details>
 
-### Mijn Proces:
+###### Mijn Proces: ######
 
 Mijn eerste stappen waren om bij elke sound een animatie toe te voegen. Ik ben erg extreem begonnen, met wilde animaties en extreme kleuren, puur om te kijken wat mogelijk is. 
 
