@@ -120,6 +120,24 @@ Ook het contrast met achtergrond en tekst moet ik goed in de gaten houden zodat 
 
 UPDATE:
 
-Ik ben nu de animaties aan het aanpassen dat ze alleen tijdens het geluid veranderen, en niet veranderd blijven ná het geluid. Het is nu een eenmalige aanpassing, net zoals het geluid eenmalig is.
+Ik ben nu de animaties aan het aanpassen dat ze alleen tijdens het geluid veranderen, en niet veranderd blijven ná het geluid. Het is nu een eenmalige animatie, net zoals het geluid ook eenmalig is.
+
+Ook heb ik in de animaties een bepaald kleurenpalet aangehouden, die passen bij de sfeer:
+
+Rood/maroon, wit, zwart, teal. Deze heb ik in de diverse animaties gebruikt, zodat het 1 geheel blijft.
+
+Voor de agent/computer stem heb ik Brenner Mono Italic gebruikt, omdat dat de feeling van die computerstem goed weergeeft.
+
+Voor KD6-3.7 heb ik Branner Slab gebruikt. Hij ziet er een beetje 'bad-ass' uit, en heb hem daarom dit stoere font gegeven.
+
+Sommige woorden heb ik met een witte of 'teal' kleur aangepast om te benadrukken. Bijvoorbeeld de 'fuck-off skin-job' heeft een zwaar font en een andere kleur, waardoor je ziet dat het agressief bedoeld is en eenmalig in beeld komt, omdat het dus qua vormgeving afwijkt.
+
+Ook het laatste woord van de computer 'constant K, you can pick up your bonus' heb ik laten afwijken van de normale vormgeving, omdat dit voor het eerst 'aardig' overkomt als een beloning, en geen kruisverhoor.
+
+Verder heb ik niet veel met de tekst gedaan. De animaties van het beeld zijn al vrij druk en extreem, waardoor het in mijn ogen TEveel wordt als ik ook nog van alles doe met de tekst. 
+
+Het laatste gedeelte met de piep heb ik ook aangepast. eerst deed ik de achtergrond om en om met complementaire kleuren om die visuele hoofdpijn te creeren, maar die kleuren paste niet bij de sfeer van de clip. daarom heb ik hiervoor andere kleuren gebruikt (maroon en teal, complementair maar dan 'duister') en heb ik de animatie zodanig uitgesteld dat het pas 'erg' wordt wanneer de piep toeneemt.
+
+een nadeel is dat het hoofdpijn effect niet meer supersterk is, maar alsnog wel irritant om naar te kijken. Om dit te versterken heb ik op een gegeven moment het beeld op en neer laten bouncen, wat de trilling van de piep weergeeft.
 
 
