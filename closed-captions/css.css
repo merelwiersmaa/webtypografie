@@ -1,3 +1,8 @@
+:root {
+	--kleur1: maroon;
+	--kleur2: teal;
+}
+
 body {
 	background-color:dimgrey;
 }
@@ -30,6 +35,7 @@ Feel free to adjust the defaults to your needs.
 	font-family: "Brenner Mono"; /* Brenner Mono omdat het een computer stem is */
 	font-style: Italic; /* De clip is een beetje vanuit de KD6's POV, daarom is de computerstem een 'bij-stemmetje' in italic en tussen haakjes */
 	font-weight: 600;
+	font-size: 1.5em;
 }
 
 .voice1BossKlaar {
@@ -37,19 +43,22 @@ Feel free to adjust the defaults to your needs.
 	font-style: Italic; /* De clip is een beetje vanuit de KD6's POV, daarom is de computerstem een 'bij-stemmetje' in italic en tussen haakjes */
 	font-weight: 600;
 	font-size: 2em;
-	color: rgb(77, 175, 103);
-	text-shadow: 1px 1px 2px rgb(52, 89, 24);
+	color: teal; /* Deze heeft een zachtere uitstraling, omdat het als een soort beloning klinkt. */
+	text-shadow: 2px 2px 3px rgb(0, 0, 0);
 }
 .voice2Ryan {
 	font-family: "Brenner Slab"; /* KD6 is een stoer type, dus daar hoort een stoer font bij */
 	font-style: Normal; /* Deze clip gaat om hem, daarom zijn tekst in een normaal font zonder haakjes, alsof je het vanuit zijn POV ervaart */
 	font-weight: 800;
+	font-size: 1.5em;
 }
 
 .voice2RyanInterlinked1 {
 	font-family: "Brenner Slab"; /* KD6 is een stoer type, dus daar hoort een stoer font bij */
 	font-style: Normal; /* Deze clip gaat om hem, daarom zijn tekst in een normaal font zonder haakjes, alsof je het vanuit zijn POV ervaart */
 	font-weight: 800;
+	color: white;
+	font-size: 1.5em;
 }
 
 .voice2RyanInterlinked2 {
@@ -57,6 +66,8 @@ Feel free to adjust the defaults to your needs.
 	font-style: Normal; /* Deze clip gaat om hem, daarom zijn tekst in een normaal font zonder haakjes, alsof je het vanuit zijn POV ervaart */
 	font-weight: 800;
 	margin-left: 10em;
+	color: white;
+	font-size: 1.5em;
 }
 
 .voice2RyanInterlinked3 {
@@ -64,6 +75,8 @@ Feel free to adjust the defaults to your needs.
 	font-style: Normal; /* Deze clip gaat om hem, daarom zijn tekst in een normaal font zonder haakjes, alsof je het vanuit zijn POV ervaart */
 	font-weight: 800;
 	margin-left: 20em;
+	color: white;
+	font-size: 1.5em;
 }
 
 .voice3Aso {
@@ -71,8 +84,8 @@ Feel free to adjust the defaults to your needs.
 	font-style: Italic; 
 	font-weight: 800; /* Ook wijkt deze zin af van de rest, waardoor je weet dat dit maar een eenmalige stem is. */
 	font-size: 2em;
-	color: rgb(255, 0, 13);
-	text-shadow: 1px 1px 2px rgb(0, 0, 0);
+	color: rgb(252, 35, 35);
+	text-shadow: 2px 2px 3px rgb(0, 0, 0);
 }
 
 /* **********************************************
@@ -146,9 +159,9 @@ You probably want to change the styling.
 .p0.on span:nth-of-type(11) {
 	opacity: 1;
 	transition: 0s 3.7s;
-	position: absolute;
-	font-weight: 900;
-	font-size: 5em;
+	margin-left: 8em;
+	color: white;
+	font-size: 1.5em;
 	/* font-family: "brenner slab"; */
 }
 
@@ -521,16 +534,16 @@ Sounds.
 .sound9 {
 	background-color: white;
 	animation-name: irritant_achtergrondkleur;
-	animation-duration: 22s;
-	animation-delay: 19s;
+	animation-duration: 15s;
+	animation-delay: 26s;
 }
 
 .sound9 #video-mask {
 	border: solid 1.5em lightgray;
 	box-shadow: none;
 	animation-name: irritant_borderkleur;
-	animation-duration: 22s;
-	animation-delay: 19s;
+	animation-duration: 15s;
+	animation-delay: 26s;
 }
 
 /* tijdens deze irritante piep in de clip, heb ik de border en achtergrond steeds elkaars complementaire kleuren gegeven, */
@@ -595,136 +608,136 @@ Sounds.
 
 	50% {
 		
-		background-color: aqua;
+		background-color: var(--kleur2);
 	}
 
 	55% {
-		background-color: red;
+		background-color: var(--kleur1);
 		
 	}
 
 	60% {
-		background-color: aqua;
+		background-color: var(--kleur2);
 	}
 	 
 	62.5% {
-		background-color: red;
+		background-color: var(--kleur1);
 	}
 
 	65% {
-		background-color: aqua;
+		background-color: var(--kleur2);
 	}
 
 	66.25% {
-		background-color: red;
+		background-color: var(--kleur1);
 	}
 	 
 	67.5% {
-		background-color: aqua;
+		background-color: var(--kleur2);
 	}
 
 	68.75% {
-		background-color: red;
+		background-color: var(--kleur1);
 	}
 
 	70% {
-		background-color: aqua;
+		background-color: var(--kleur2);
 	}
 
 	71.25% {
-		background-color: red;
+		background-color: var(--kleur1);
 	}
 	 
 	72.5% {
-		background-color: aqua;
+		background-color: var(--kleur2);
 	}
 
 	73.75% {
-		background-color: red;
+		background-color: var(--kleur1);
 	}
 
 	75% {
-		background-color: aqua;
+		background-color: var(--kleur2);
 	}
 
 	76.25% {
-		background-color: red;
+		background-color: var(--kleur1);
 	}
 
 	77.5% {
-		background-color: aqua;
+		background-color: var(--kleur2);
 	}
 
 	78.75% {
-		background-color: red;
+		background-color: var(--kleur1);
 	}
 
 	80% {
-		background-color: aqua;
+		background-color: var(--kleur2);
 	}
 
 	81.25% {
-		background-color: red;
+		background-color: var(--kleur1);
 	}
 	 
 	82.5% {
-		background-color: aqua;
+		background-color: var(--kleur2);
 	}
 
 	83.75% {
-		background-color: red;
+		background-color: var(--kleur1);
 	}
 
 	85% {
-		background-color: aqua;
+		background-color: var(--kleur2);
 	}
 
 	86.25% {
-		background-color: red;
+		background-color: var(--kleur1);
 	}
 	 
 	87.5% {
-		background-color: aqua;
+		background-color: var(--kleur2);
 	}
 
 	88.75% {
-		background-color: red;
+		background-color: var(--kleur1);
 	}
 
 	90% {
-		background-color: aqua;
+		background-color: var(--kleur2);
 	}
 
 	91.25% {
-		background-color: red;
+		background-color: var(--kleur1);
 	}
 	 
 	92.5% {
-		background-color: aqua;
+		background-color: var(--kleur2);
 	}
 
 	93.75% {
-		background-color: red;
+		background-color: var(--kleur1);
 	}
 
 	95% {
-		background-color: aqua;
+		background-color: var(--kleur2);
 	}
 
 	96.25% {
-		background-color: red;
+		background-color: var(--kleur1);
 	}
 	 
 	97.5% {
-		background-color: aqua;
+		background-color: var(--kleur2);
 	}
 
 	98.75% {
-		background-color: red;
+		background-color: var(--kleur1);
 	}
 
 	100% {
-		background-color: aqua;
+		background-color: var(--kleur2);
 	}
 }
 
@@ -789,141 +802,171 @@ Sounds.
 
 
 	50% {
-		border-color: red;
+		border-color: var(--kleur1);
 	}
 
 	
 
 	55% {
-		border-color: aqua;
+		border-color: var(--kleur2);
 		
 	}
 	 
 
 	60% {
-		border-color: red;
+		border-color: var(--kleur1);
+		
 	}
 	 
 	62.5% {
-		border-color: aqua;
+		border-color: var(--kleur2);
+		transform: translateY(0em);
 	}
 
 	65% {
-		border-color: red;
+		border-color: var(--kleur1);
+		transform: translateY(-.5em);
 	}
 
 	66.25% {
-		border-color: aqua;
+		border-color: var(--kleur2);
+		transform: translateY(.5em);
 	}
 	 
 	67.5% {
-		border-color: red;
+		border-color: var(--kleur1);
+		transform: translateY(-.5em);
 	}
 
 	68.75% {
-		border-color: aqua;
+		border-color: var(--kleur2);
+		transform: translateY(.5em);
 	}
 
 	70% {
-		border-color: red;
+		border-color: var(--kleur1);
+		transform: translateY(-.5em);
 	}
 
 	71.25% {
-		border-color: aqua;
+		border-color: var(--kleur2);
+		transform: translateY(.5em);
 	}
 	 
 	72.5% {
-		border-color: red;
+		border-color: var(--kleur1);
+		transform: translateY(-.5em);
 	}
 
 	73.75% {
-		border-color: aqua;
+		border-color: var(--kleur2);
+		transform: translateY(.5em);
 	}
 
 	75% {
-		border-color: red;
+		border-color: var(--kleur1);
+		transform: translateY(-.5em);
 	}
 
 	76.25% {
-		border-color: aqua;
+		border-color: var(--kleur2);
+		transform: translateY(.5em);
 	}
 
 	77.5% {
-		border-color: red;
+		border-color: var(--kleur1);
+		transform: translateY(-.5em);
 	}
 
 	78.75% {
-		border-color: aqua;
+		border-color: var(--kleur2);
+		transform: translateY(.5em);
 	}
 
 	80% {
-		border-color: red;
+		border-color: var(--kleur1);
+		transform: translateY(-.5em);
 	}
 
 	81.25% {
-		border-color: aqua;
+		border-color: var(--kleur2);
+		transform: translateY(.5em);
 	}
 	 
 	82.5% {
-		border-color: red;
+		border-color: var(--kleur1);
+		transform: translateY(-.5em);
 	}
 
 	83.75% {
-		border-color: aqua;
+		border-color: var(--kleur2);
+		transform: translateY(.5em);
 	}
 
 	85% {
-		border-color: red;
+		border-color: var(--kleur1);
+		transform: translateY(-.5em);
 	}
 
 	86.25% {
-		border-color: aqua;
+		border-color: var(--kleur2);
+		transform: translateY(.5em);
 	}
 	 
 	87.5% {
-		border-color: red;
+		border-color: var(--kleur1);
+		transform: translateY(-.5em);
 	}
 
 	88.75% {
-		border-color: aqua;
+		border-color: var(--kleur2);
+		transform: translateY(.5em);
 	}
 
 	90% {
-		border-color: red;
+		border-color: var(--kleur1);
+		transform: translateY(-.5em);
 	}
 
 	91.25% {
-		border-color: aqua;
+		border-color: var(--kleur2);
+		transform: translateY(.5em);
 	}
 	 
 	92.5% {
-		border-color: red;
+		border-color: var(--kleur1);
+		transform: translateY(-.5em);
 	}
 
 	93.75% {
-		border-color: aqua;
+		border-color: var(--kleur2);
+		transform: translateY(.5em);
 	}
 
 	95% {
-		border-color: red;
+		border-color: var(--kleur1);
+		transform: translateY(-.5em);
 	}
 
 	96.25% {
-		border-color: aqua;
+		border-color: var(--kleur2);
+		transform: translateY(.5em);
 	}
 	 
 	97.5% {
-		border-color: red;
+		border-color: var(--kleur1);
+		transform: translateY(-.5em);
 	}
 
 	98.75% {
-		border-color: aqua;
+		border-color: var(--kleur2);
+		transform: translateY(.5em);
 		scale: 120%;
 	}
 
 	100% {
-		border-color: red;
-		
+		border-color: var(--kleur1);
+		transform: translateY(0em);
 	}
 }
 
